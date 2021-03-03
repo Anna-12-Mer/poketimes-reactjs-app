@@ -5,12 +5,13 @@ import {Link,NavLink} from 'react-router-dom'
 class Navabar extends Component {
     render() {
         return (
-            <nav className="nav-wapper black darken-3">
+            <nav className="nav-wapper grey darken-3">
                 <div className="container">
                     <Link className="brand-logo" to="/">Poke' Times</Link> 
                     <ul className="right">
                         <li><NavLink exact to="/">Home</NavLink></li>
                         <li><NavLink to="/about">About</NavLink></li>
+                        <li><NavLink to="/contact">Conatct</NavLink></li>
                     </ul>
                 </div>
             </nav>
